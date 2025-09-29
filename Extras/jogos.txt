@@ -1,0 +1,234 @@
+minecraft = [{"simulador", "aventura"},
+             {"fantasia", "sobrevivencia", "sandbox", "infantil", "mundo aberto"},
+             {"single", "multi", "coop"}]
+
+silksong = [{"plataforma", "aventura", "indie"},
+            {"acao", "fantasia"},
+            {"single"}]
+
+hollowKnight = [{"plataforma", "aventura", "indie"},
+                {"acao", "fantasia"},
+                {"single"}]
+
+babaIsYou = [{"puzzle", "estrategia", "indie"},
+             {"fantasia"},
+             {"single"}]
+
+redDead2 = [{"tiro", "rpg", "aventura"},
+            {"acao", "drama", "mundo aberto", "ocidental"},
+            {"single", "multi", "coop"}]
+
+skyrim = [{"rpg", "aventura"},
+          {"fantasia", "furtivo", "sandbox", "mundo aberto", "acao"},
+          {"single"}]
+
+gtaV = [{"tiro", "aventura", "corrida"},
+        {"acao", "comedia", "sandbox", "mundo aberto"},
+        {"single", "multi", "coop"}]
+
+godOfWar = [{"puzzle", "aventura", "bater"},
+            {"acao", "fantasia", "historia"},
+            {"single"}]
+
+hades = [{"rpg", "bater", "aventura", "indie", "ikeike"},
+         {"acao", "fantasia", "drama"},
+         {"single"}]
+
+witcher3 = [{"rpg", "aventura"},
+            {"acao", "fantasia", "mundo aberto"},
+            {"single"}]
+
+metalGearSolid5 = [{"tiro", "tatico", "aventura"},
+                   {"acao", "ficcao cientifica", "historia", "furtivo", "mundo aberto"},
+                   {"single", "multi"}]
+
+residentEvil4 = [{"tiro", "puzzle", "aventura"},
+                 {"acao", "horror", "sobrevivencia"},
+                 {"single"}]
+
+chronoTrigger = [{"rpg", "aventura"},
+                 {"fantasia", "ficcao cientifica"},
+                 {"single"}]
+
+zeldaOcarinaOfTime = [{"rpg", "aventura"},
+                      {"acao", "fantasia"},
+                      {"single"}]
+
+borderlands2 = [{"tiro", "rpg"},
+                {"acao", "ficcao cientifica", "comedia", "sandbox"},
+                {"single", "multi", "coop"}]
+
+lastOfUs = [{"tiro", "aventura"},
+            {"acao", "horror", "sobrevivencia", "furtivo"},
+            {"single", "coop"}]
+
+halfLife2 = [{"tiro"},
+             {"ficcao cientifica", "horror", "acao"},
+             {"single"}]
+
+valorant = [{"tiro", "tatico"},
+            {"fantasia", "ficcao cientifica", "acao"},
+            {"multi"}]
+
+cs2 = [{"tiro", "tatico"},
+       {"acao", "guerra"},
+       {"multi"}]
+
+darksouls3 = [{"rpg", "aventura"},
+              {"acao", "fantasia"},
+              {"single", "multi", "coop"}]
+
+haloCombatEvolved = [{"tiro"},
+                     {"acao", "ficcao cientifica"},
+                     {"single", "multi", "coop"}]
+
+fifa23 = [{"simulador", "esporte"},
+          {"nao ficcao"},
+          {"single", "multi", "coop"}]
+
+portal = [{"tiro", "plataforma", "puzzle"},
+          {"acao", "ficcao cientifica", "comedia"},
+          {"single"}]
+
+portal2 = [{"tiro", "plataforma", "puzzle", "aventura"},
+           {"acao", "ficcao cientifica", "comedia"},
+           {"single", "multi", "coop"}]
+
+smashBrosUltimate = [{"luta", "plataforma"},
+                     {"acao", "festa"},
+                     {"single", "multi", "coop"}]
+
+pokemonScarlet = [{"rpg", "turno", "aventura"},
+                  {"fantasia", "infantil", "acao"},
+                  {"single", "multi"}]
+
+marioOdyssey = [{"plataforma", "aventura"},
+                {"fantasia", "sandbox", "mundo aberto", "acao"},
+                {"single", "coop"}]
+
+fallout2 = [{"rpg", "turno", "aventura"},
+            {"ficcao cientifica", "sobrevivencia", "mundo aberto"},
+            {"single"}]
+
+bioShock = [{"tiro", "puzzle", "rpg", "aventura"},
+            {"acao", "ficcao cientifica", "horror"},
+            {"single"}]
+
+tetris = [{"puzzle", "arcade"},
+          {"acao"},
+          {"single"}]
+
+undertale = [{"rpg", "turno", "aventura", "indie"},
+             {"fantasia", "horror", "comedia", "drama"},
+             {"single"}]
+
+deltarune = [{"musica", "puzzle", "rpg", "turno", "aventura", "indie"},
+             {"acao", "comedia", "drama", "misterio"},
+             {"single"}]
+
+baldursGate3 = [{"rpg", "estrategia", "turno", "tatico", "aventura"},
+                {"acao", "fantasia"},
+                {"single", "multi", "coop"}]
+
+overwatch2 = [{"tiro", "estrategia"},
+              {"acao", "ficcao cientifica"},
+              {"multi", "coop"}]
+
+gangBeasts = [{"luta", "indie"},
+              {"comedia", "festa", "acao"},
+              {"single", "multi", "coop"}]
+
+bindingOfIsaacRebirth = [{"tiro", "rpg", "aventura", "indie", "arcade", "roguelike"},
+                         {"acao", "fantasia", "horror", "comedia"},
+                         {"single", "multi", "coop"}]
+
+buckshotRoulette = [{"indie"},
+                    {"horror"},
+                    {"single", "multi"}]
+
+celeste = [{"plataforma", "aventura", "indie"},
+           {"acao", "fantasia"},
+           {"single"}]
+
+adofai = [{"musica", "indie", "arcade"},
+          {"acao"},
+          {"single"}]
+
+ddlc = [{"aventura", "indie", "visual novel"},
+        {"horror", "romance"},
+        {"single"}]
+
+dontStarveTogether = [{"simulacao", "estrategia", "aventura", "indie", "roguelike"},
+                      {"horror", "sobrevivencia", "sandbox", "mundo aberto", "acao"},
+                      {"single", "multi", "coop"}]
+
+euroTruckSimulator2 = [{"corrida", "simulacao", "indie"},
+                       {"nao ficcao", "mundo aberto"},
+                       {"single", "multi", "coop"}]
+
+fridayThe13th = [{"indie"},
+                 {"acao", "horror", "sobrevivencia", "furtivo"},
+                 {"single", "multi", "coop"}]
+
+slaythePrincess = [{"mouse", "aventura", "indie", "visual novel"},
+                   {"horror", "suspense", "comedia", "misterio"},
+                   {"single"}]
+
+inscryption = [{"puzzle", "estrategia", "aventura", "indie", "carta e tabuleiro", "roguelike"},
+               {"horror", "misterio"},
+               {"single"}]
+
+ktane = [{"puzzle", "simulacao", "indie", "carta e tabuleiro"},
+         {"suspense", "festa"},
+         {"multi", "coop"}]
+
+jackboxPartyPack3 = [{"puzzle", "estrategia", "quiz", "indie"},
+                     {"comedia", "festa"},
+                     {"single", "multi", "coop"}]
+
+littleNightmares = [{"plataforma", "puzzle", "aventura"},
+                    {"fantasia", "horror", "suspense", "acao"},
+                    {"single"}]
+
+outerWilds = [{"puzzle", "simulacao", "aventura", "indie"},
+              {"acao", "ficcao cientifica", "mundo aberto", "misterio"},
+              {"single"}]
+
+plagueIncEvolved = [{"simulacao", "estrategia", "tatico", "indie"},
+                    {"ficcao cientifica", "sobrevivencia"},
+                    {"single", "multi", "coop"}]
+
+polyBridge = [{"puzzle", "simulacao", "indie"},
+              {"sandbox", "educacional"},
+              {"single"}]
+
+PotionCraft = [{"mouse", "puzzle", "rpg", "simulacao", "indie"},
+               {"fantasia", "sandbox"},
+               {"single"}]
+
+raft = [{"simulacao", "aventura", "indie"},
+        {"sobrevivencia" "sandbox", "mundo aberto"},
+        {"single", "multi", "coop"}]
+
+repo = [{"estrategia", "indie"},
+        {"acao", "ficcao cientifica", "horror", "sobrevivencia", "furtivo"},
+        {"single", "multi", "coop"}]
+
+scribblenautsUnlimited = [{"plataforma", "puzzle", "estrategia", "aventura"},
+                          {"infantil"},
+                          {"single"}]
+
+theSims4 = [{"simulacao"},
+            {"fantasia", "comedia", "sandbox", "romance", "acao"},
+            {"single"}]
+
+slimeRancher = [{"tiro", "simulacao", "aventura", "indie"},
+                {"acao", "ficcao cientifica", "mundo aberto"},
+                {"single"}]
+
+stanleyParable = [{"aventura", "indie"},
+                  {"comedia"},
+                  {"single"}]
+
+terraria
+rocketLeague
