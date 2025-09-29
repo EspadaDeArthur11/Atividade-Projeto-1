@@ -1,0 +1,19 @@
+3
+6
+0 Hollow Knight 91
+1 Hades 86
+2 The Witcher 3: Wild Hunt 91
+3 Resident Evil 4 89
+4 Chrono Trigger 92
+5 Celeste 87
+10
+1 0 4
+2 0 5
+2 1 3
+3 0 2
+3 2 4
+4 0 6
+4 2 5
+5 1 4
+5 3 3
+5 4 2
