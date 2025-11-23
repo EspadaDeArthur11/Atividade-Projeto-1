@@ -13,7 +13,7 @@ class TwitchIGDB:
         self.expires_at = 0
 
 
-    # 1. Pegando TOKEN OAuth (obrigatório para usar o IGDB)
+    # 1. Pegando TOKEN OAuth 
 
     def get_token(self):
         if self.access_token and time.time() < self.expires_at:
