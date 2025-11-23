@@ -1,4 +1,4 @@
-# twitch_igdb_api.py
+
 import requests
 import time
 
