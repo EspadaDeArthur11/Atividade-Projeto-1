@@ -58,7 +58,7 @@ def converter(jogo):
 
     generos = {f"genero_{g}" for g in jogo.get("genres", [])}
     temas = {f"tema_{t}" for t in jogo.get("themes", [])}
-    players = {"single"}  # fallback
+    players = {"single"} 
 
     return nome, rating, generos, temas, players
 
