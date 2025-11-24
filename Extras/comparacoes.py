@@ -15,3 +15,4 @@ for i in range(8, len(jogos)):
         comparacoes.insereA(i-8, j-8, peso)
 
 comparacoes.makeFileFromGraph("grafo.txt")
+
