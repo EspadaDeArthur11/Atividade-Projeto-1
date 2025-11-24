@@ -9,7 +9,7 @@ for i in range(8, len(jogos)):
 
 for i in range(8, len(jogos)):
     for j in range(8, i):
-        peso = len(jogos[i][1][2] & jogos[j][1][2]) # soma 1 pra cada gênero em comum
+        peso = len(jogos[i][1][2] & jogos[j][1][2]) # soma 1 pra cada gÃªnero em comum
         peso += len(jogos[i][1][3] & jogos[j][1][3]) # soma 1 pra cada tema em comum
         peso += len(jogos[i][1][4] & jogos[j][1][4]) # soma 1 pra cada qtde de jogador em comum
         comparacoes.insereA(i-8, j-8, peso)
