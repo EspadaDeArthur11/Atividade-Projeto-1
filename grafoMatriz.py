@@ -95,16 +95,20 @@ class GrafoRot:
 	# Apresenta o Grafo contendo
 	# número de vértices, arestas
 	# e a matriz de adjacência obtida	
-    def show(self):
+    def show(self, omitir_infinito = False):
         print(f"\n n: {self.vertices:2d} ", end="")
         print(f"m: {self.arestas:2d}\n")
 
         for i in range(self.vertices):
             for w in range(self.vertices):
-                if self.adj[i][w] == INF:
-                    print(f"Adj[{i:2d},{w:2d}] = ∞ | ", end="") 
+                if not omitir_infinito:
+                    if self.adj[i][w] == INF:
+                        print(f"Adj[{i:2d},{w:2d}] = ∞ | ", end="") 
+                    else:
+                        print(f"Adj[{i:2d},{w:2d}] = {self.adj[i][w]} | ", end="")
                 else:
-                    print(f"Adj[{i:2d},{w:2d}] = {self.adj[i][w]} | ", end="")
+                    if self.adj[i][w] != INF:
+                        print(f"Adj[{i:2d},{w:2d}] = {self.adj[i][w]} | ", end="")
             print("\n")
         print("\nfim da impressao do grafo." )
 
@@ -233,3 +237,44 @@ class GrafoRot:
         if len(visitados) != self.vertices:
             return 1
         return 0
+    
+    def vizinhos(self, v):
+        vizinhos = []
+        for i in range(self.vertices):
+            if self.adj[i][v] == 1 or self.adj[v][i] == 1:
+                vizinhos.append(i)
+        return vizinhos
+    
+    def primAux(self, custo, T, E):
+        valor = -INF
+        for k in T:
+            for i in set(range(self.vertices)).difference(T):
+                if self.adj[k][i] > valor:
+                    valor = self.adj[k][i]
+                    vint = k
+                    vext = i
+        custo += valor
+        T.add(vext)
+        E.append([vext, vint, valor])
+        if T != set(range(self.vertices)):
+            custo, E = self.primAux(custo, T, E)
+        return custo, E
+
+    def prim(self):
+        custo, E = self.primAux(0, {0}, [])
+        return custo, E
+    
+    def caminhoEuleriano(self):
+        qtde = 0
+        i = 0
+        while qtde < 2 and i < self.vertices:
+            grau = 0
+            for j in range(self.vertices):
+                if self.adj[i][j] != INF:
+                    grau += self.adj[i][j]
+            if grau % 2 == 1:
+                qtde += 1
+            i += 1
+        if qtde == 0:
+            return False
+        return True
