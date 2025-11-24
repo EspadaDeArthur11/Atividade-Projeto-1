@@ -80,7 +80,7 @@ def salvar_arquivo(lista_convertida):
 
         f.write("\n\n# Lista geral\n")
         f.write("jogos = [\n")
-        for i in range(111):
+        for i in range(750):
             f.write(f"    jogo{i+1},\n")
         f.write("]\n")
 
